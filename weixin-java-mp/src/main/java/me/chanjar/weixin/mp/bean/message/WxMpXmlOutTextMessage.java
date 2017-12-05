@@ -21,4 +21,11 @@ public class WxMpXmlOutTextMessage extends WxMpXmlOutMessage {
     this.msgType = WxConsts.XmlMsgType.TEXT;
   }
 
+  public String getContent() {
+    return content;
+  }
+
+  public void setContent(String content) {
+    this.content = content;
+  }
 }

@@ -106,6 +106,106 @@ public class WxMpKefuMessage implements Serializable {
     this.msgType = msgType;
   }
 
+  public String getToUser() {
+    return toUser;
+  }
+
+  public void setToUser(String toUser) {
+    this.toUser = toUser;
+  }
+
+  public String getMsgType() {
+    return msgType;
+  }
+
+  public String getContent() {
+    return content;
+  }
+
+  public void setContent(String content) {
+    this.content = content;
+  }
+
+  public String getMediaId() {
+    return mediaId;
+  }
+
+  public void setMediaId(String mediaId) {
+    this.mediaId = mediaId;
+  }
+
+  public String getThumbMediaId() {
+    return thumbMediaId;
+  }
+
+  public void setThumbMediaId(String thumbMediaId) {
+    this.thumbMediaId = thumbMediaId;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
+  }
+
+  public String getMusicUrl() {
+    return musicUrl;
+  }
+
+  public void setMusicUrl(String musicUrl) {
+    this.musicUrl = musicUrl;
+  }
+
+  public String getHqMusicUrl() {
+    return hqMusicUrl;
+  }
+
+  public void setHqMusicUrl(String hqMusicUrl) {
+    this.hqMusicUrl = hqMusicUrl;
+  }
+
+  public String getKfAccount() {
+    return kfAccount;
+  }
+
+  public void setKfAccount(String kfAccount) {
+    this.kfAccount = kfAccount;
+  }
+
+  public String getCardId() {
+    return cardId;
+  }
+
+  public void setCardId(String cardId) {
+    this.cardId = cardId;
+  }
+
+  public String getMpNewsMediaId() {
+    return mpNewsMediaId;
+  }
+
+  public void setMpNewsMediaId(String mpNewsMediaId) {
+    this.mpNewsMediaId = mpNewsMediaId;
+  }
+
+  public List<WxArticle> getArticles() {
+    return articles;
+  }
+
+  public void setArticles(List<WxArticle> articles) {
+    this.articles = articles;
+  }
+
   public String toJson() {
     return WxMpGsonBuilder.INSTANCE.create().toJson(this);
   }

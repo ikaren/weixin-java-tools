@@ -21,4 +21,11 @@ public class WxMpXmlOutVoiceMessage extends WxMpXmlOutMessage {
     this.msgType = WxConsts.XmlMsgType.VOICE;
   }
 
+  public String getMediaId() {
+    return mediaId;
+  }
+
+  public void setMediaId(String mediaId) {
+    this.mediaId = mediaId;
+  }
 }

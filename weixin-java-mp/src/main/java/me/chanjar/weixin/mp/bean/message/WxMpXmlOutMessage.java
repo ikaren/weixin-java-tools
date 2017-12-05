@@ -93,4 +93,36 @@ public abstract class WxMpXmlOutMessage implements Serializable {
     WxMpCryptUtil pc = new WxMpCryptUtil(wxMpConfigStorage);
     return pc.encrypt(plainXml);
   }
+
+  public String getToUserName() {
+    return toUserName;
+  }
+
+  public void setToUserName(String toUserName) {
+    this.toUserName = toUserName;
+  }
+
+  public String getFromUserName() {
+    return fromUserName;
+  }
+
+  public void setFromUserName(String fromUserName) {
+    this.fromUserName = fromUserName;
+  }
+
+  public Long getCreateTime() {
+    return createTime;
+  }
+
+  public void setCreateTime(Long createTime) {
+    this.createTime = createTime;
+  }
+
+  public String getMsgType() {
+    return msgType;
+  }
+
+  public void setMsgType(String msgType) {
+    this.msgType = msgType;
+  }
 }

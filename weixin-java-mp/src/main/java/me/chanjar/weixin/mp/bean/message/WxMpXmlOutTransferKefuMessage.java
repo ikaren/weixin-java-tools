@@ -31,5 +31,20 @@ public class WxMpXmlOutTransferKefuMessage extends WxMpXmlOutMessage {
     @XStreamConverter(value = XStreamCDataConverter.class)
     private String kfAccount;
 
+    public String getKfAccount() {
+      return kfAccount;
+    }
+
+    public void setKfAccount(String kfAccount) {
+      this.kfAccount = kfAccount;
+    }
+  }
+
+  public TransInfo getTransInfo() {
+    return transInfo;
+  }
+
+  public void setTransInfo(TransInfo transInfo) {
+    this.transInfo = transInfo;
   }
 }
