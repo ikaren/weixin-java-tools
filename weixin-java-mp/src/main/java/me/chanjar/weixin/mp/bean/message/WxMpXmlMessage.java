@@ -497,9 +497,571 @@ public class WxMpXmlMessage implements Serializable {
     this.msgType = msgType;
   }
 
+  public String getToUser() {
+    return toUser;
+  }
+
+  public void setToUser(String toUser) {
+    this.toUser = toUser;
+  }
+
+  public String getFromUser() {
+    return fromUser;
+  }
+
+  public void setFromUser(String fromUser) {
+    this.fromUser = fromUser;
+  }
+
+  public Long getCreateTime() {
+    return createTime;
+  }
+
+  public void setCreateTime(Long createTime) {
+    this.createTime = createTime;
+  }
+
+  public String getContent() {
+    return content;
+  }
+
+  public void setContent(String content) {
+    this.content = content;
+  }
+
+  public Long getMenuId() {
+    return menuId;
+  }
+
+  public void setMenuId(Long menuId) {
+    this.menuId = menuId;
+  }
+
+  public Long getMsgId() {
+    return msgId;
+  }
+
+  public void setMsgId(Long msgId) {
+    this.msgId = msgId;
+  }
+
+  public String getPicUrl() {
+    return picUrl;
+  }
+
+  public void setPicUrl(String picUrl) {
+    this.picUrl = picUrl;
+  }
+
+  public String getMediaId() {
+    return mediaId;
+  }
+
+  public void setMediaId(String mediaId) {
+    this.mediaId = mediaId;
+  }
+
+  public String getFormat() {
+    return format;
+  }
+
+  public void setFormat(String format) {
+    this.format = format;
+  }
+
+  public String getThumbMediaId() {
+    return thumbMediaId;
+  }
+
+  public void setThumbMediaId(String thumbMediaId) {
+    this.thumbMediaId = thumbMediaId;
+  }
+
+  public Double getLocationX() {
+    return locationX;
+  }
+
+  public void setLocationX(Double locationX) {
+    this.locationX = locationX;
+  }
+
+  public Double getLocationY() {
+    return locationY;
+  }
+
+  public void setLocationY(Double locationY) {
+    this.locationY = locationY;
+  }
+
+  public Double getScale() {
+    return scale;
+  }
+
+  public void setScale(Double scale) {
+    this.scale = scale;
+  }
+
+  public String getLabel() {
+    return label;
+  }
+
+  public void setLabel(String label) {
+    this.label = label;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
+  }
+
+  public String getUrl() {
+    return url;
+  }
+
+  public void setUrl(String url) {
+    this.url = url;
+  }
+
+  public String getEvent() {
+    return event;
+  }
+
+  public void setEvent(String event) {
+    this.event = event;
+  }
+
+  public String getEventKey() {
+    return eventKey;
+  }
+
+  public void setEventKey(String eventKey) {
+    this.eventKey = eventKey;
+  }
+
+  public String getTicket() {
+    return ticket;
+  }
+
+  public void setTicket(String ticket) {
+    this.ticket = ticket;
+  }
+
+  public Double getLatitude() {
+    return latitude;
+  }
+
+  public void setLatitude(Double latitude) {
+    this.latitude = latitude;
+  }
+
+  public Double getLongitude() {
+    return longitude;
+  }
+
+  public void setLongitude(Double longitude) {
+    this.longitude = longitude;
+  }
+
+  public Double getPrecision() {
+    return precision;
+  }
+
+  public void setPrecision(Double precision) {
+    this.precision = precision;
+  }
+
+  public String getRecognition() {
+    return recognition;
+  }
+
+  public void setRecognition(String recognition) {
+    this.recognition = recognition;
+  }
+
+  public String getStatus() {
+    return status;
+  }
+
+  public void setStatus(String status) {
+    this.status = status;
+  }
+
+  public Integer getTotalCount() {
+    return totalCount;
+  }
+
+  public void setTotalCount(Integer totalCount) {
+    this.totalCount = totalCount;
+  }
+
+  public Integer getFilterCount() {
+    return filterCount;
+  }
+
+  public void setFilterCount(Integer filterCount) {
+    this.filterCount = filterCount;
+  }
+
+  public Integer getSentCount() {
+    return sentCount;
+  }
+
+  public void setSentCount(Integer sentCount) {
+    this.sentCount = sentCount;
+  }
+
+  public Integer getErrorCount() {
+    return errorCount;
+  }
+
+  public void setErrorCount(Integer errorCount) {
+    this.errorCount = errorCount;
+  }
+
+  public String getKfAccount() {
+    return kfAccount;
+  }
+
+  public void setKfAccount(String kfAccount) {
+    this.kfAccount = kfAccount;
+  }
+
+  public String getToKfAccount() {
+    return toKfAccount;
+  }
+
+  public void setToKfAccount(String toKfAccount) {
+    this.toKfAccount = toKfAccount;
+  }
+
+  public String getFromKfAccount() {
+    return fromKfAccount;
+  }
+
+  public void setFromKfAccount(String fromKfAccount) {
+    this.fromKfAccount = fromKfAccount;
+  }
+
+  public String getCardId() {
+    return cardId;
+  }
+
+  public void setCardId(String cardId) {
+    this.cardId = cardId;
+  }
+
+  public String getFriendUserName() {
+    return friendUserName;
+  }
+
+  public void setFriendUserName(String friendUserName) {
+    this.friendUserName = friendUserName;
+  }
+
+  public Integer getIsGiveByFriend() {
+    return isGiveByFriend;
+  }
+
+  public void setIsGiveByFriend(Integer isGiveByFriend) {
+    this.isGiveByFriend = isGiveByFriend;
+  }
+
+  public String getUserCardCode() {
+    return userCardCode;
+  }
+
+  public void setUserCardCode(String userCardCode) {
+    this.userCardCode = userCardCode;
+  }
+
+  public String getOldUserCardCode() {
+    return oldUserCardCode;
+  }
+
+  public void setOldUserCardCode(String oldUserCardCode) {
+    this.oldUserCardCode = oldUserCardCode;
+  }
+
+  public Integer getOuterId() {
+    return outerId;
+  }
+
+  public void setOuterId(Integer outerId) {
+    this.outerId = outerId;
+  }
+
+  public String getIsRestoreMemberCard() {
+    return isRestoreMemberCard;
+  }
+
+  public void setIsRestoreMemberCard(String isRestoreMemberCard) {
+    this.isRestoreMemberCard = isRestoreMemberCard;
+  }
+
+  public String getOuterStr() {
+    return outerStr;
+  }
+
+  public void setOuterStr(String outerStr) {
+    this.outerStr = outerStr;
+  }
+
+  public String getIsReturnBack() {
+    return isReturnBack;
+  }
+
+  public void setIsReturnBack(String isReturnBack) {
+    this.isReturnBack = isReturnBack;
+  }
+
+  public String getIsChatRoom() {
+    return isChatRoom;
+  }
+
+  public void setIsChatRoom(String isChatRoom) {
+    this.isChatRoom = isChatRoom;
+  }
+
+  public String getConsumeSource() {
+    return consumeSource;
+  }
+
+  public void setConsumeSource(String consumeSource) {
+    this.consumeSource = consumeSource;
+  }
+
+  public String getLocationName() {
+    return locationName;
+  }
+
+  public void setLocationName(String locationName) {
+    this.locationName = locationName;
+  }
+
+  public String getStaffOpenId() {
+    return staffOpenId;
+  }
+
+  public void setStaffOpenId(String staffOpenId) {
+    this.staffOpenId = staffOpenId;
+  }
+
+  public String getVerifyCode() {
+    return verifyCode;
+  }
+
+  public void setVerifyCode(String verifyCode) {
+    this.verifyCode = verifyCode;
+  }
+
+  public String getRemarkAmount() {
+    return remarkAmount;
+  }
+
+  public void setRemarkAmount(String remarkAmount) {
+    this.remarkAmount = remarkAmount;
+  }
+
+  public String getDetail() {
+    return detail;
+  }
+
+  public void setDetail(String detail) {
+    this.detail = detail;
+  }
+
+  public String getModifyBonus() {
+    return modifyBonus;
+  }
+
+  public void setModifyBonus(String modifyBonus) {
+    this.modifyBonus = modifyBonus;
+  }
+
+  public String getModifyBalance() {
+    return modifyBalance;
+  }
+
+  public void setModifyBalance(String modifyBalance) {
+    this.modifyBalance = modifyBalance;
+  }
+
+  public String getTransId() {
+    return transId;
+  }
+
+  public void setTransId(String transId) {
+    this.transId = transId;
+  }
+
+  public String getLocationId() {
+    return locationId;
+  }
+
+  public void setLocationId(String locationId) {
+    this.locationId = locationId;
+  }
+
+  public String getFee() {
+    return fee;
+  }
+
+  public void setFee(String fee) {
+    this.fee = fee;
+  }
+
+  public String getOriginalFee() {
+    return originalFee;
+  }
+
+  public void setOriginalFee(String originalFee) {
+    this.originalFee = originalFee;
+  }
+
+  public ScanCodeInfo getScanCodeInfo() {
+    return scanCodeInfo;
+  }
+
+  public void setScanCodeInfo(ScanCodeInfo scanCodeInfo) {
+    this.scanCodeInfo = scanCodeInfo;
+  }
+
+  public SendPicsInfo getSendPicsInfo() {
+    return sendPicsInfo;
+  }
+
+  public void setSendPicsInfo(SendPicsInfo sendPicsInfo) {
+    this.sendPicsInfo = sendPicsInfo;
+  }
+
+  public SendLocationInfo getSendLocationInfo() {
+    return sendLocationInfo;
+  }
+
+  public void setSendLocationInfo(SendLocationInfo sendLocationInfo) {
+    this.sendLocationInfo = sendLocationInfo;
+  }
+
+  public String getStoreUniqId() {
+    return storeUniqId;
+  }
+
+  public void setStoreUniqId(String storeUniqId) {
+    this.storeUniqId = storeUniqId;
+  }
+
+  public String getPoiId() {
+    return poiId;
+  }
+
+  public void setPoiId(String poiId) {
+    this.poiId = poiId;
+  }
+
+  public String getResult() {
+    return result;
+  }
+
+  public void setResult(String result) {
+    this.result = result;
+  }
+
+  public String getMsg() {
+    return msg;
+  }
+
+  public void setMsg(String msg) {
+    this.msg = msg;
+  }
+
+  public Long getExpiredTime() {
+    return expiredTime;
+  }
+
+  public void setExpiredTime(Long expiredTime) {
+    this.expiredTime = expiredTime;
+  }
+
+  public Long getFailTime() {
+    return failTime;
+  }
+
+  public void setFailTime(Long failTime) {
+    this.failTime = failTime;
+  }
+
+  public String getFailReason() {
+    return failReason;
+  }
+
+  public void setFailReason(String failReason) {
+    this.failReason = failReason;
+  }
+
+  public String getDeviceType() {
+    return deviceType;
+  }
+
+  public void setDeviceType(String deviceType) {
+    this.deviceType = deviceType;
+  }
+
+  public String getDeviceId() {
+    return deviceId;
+  }
+
+  public void setDeviceId(String deviceId) {
+    this.deviceId = deviceId;
+  }
+
+  public String getOpenId() {
+    return openId;
+  }
+
+  public void setOpenId(String openId) {
+    this.openId = openId;
+  }
+
+  public HardWare getHardWare() {
+    return hardWare;
+  }
+
+  public void setHardWare(HardWare hardWare) {
+    this.hardWare = hardWare;
+  }
+
+  public Integer getOpType() {
+    return opType;
+  }
+
+  public void setOpType(Integer opType) {
+    this.opType = opType;
+  }
+
+  public Integer getDeviceStatus() {
+    return deviceStatus;
+  }
+
+  public void setDeviceStatus(Integer deviceStatus) {
+    this.deviceStatus = deviceStatus;
+  }
+
   @Override
   public String toString() {
     return ToStringUtils.toSimpleString(this);
   }
+
+
 
 }
