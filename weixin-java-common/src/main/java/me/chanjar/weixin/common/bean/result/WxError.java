@@ -27,6 +27,31 @@ public class WxError implements Serializable {
     return WxGsonBuilder.create().fromJson(json, WxError.class);
   }
 
+
+  public int getErrorCode() {
+    return errorCode;
+  }
+
+  public void setErrorCode(int errorCode) {
+    this.errorCode = errorCode;
+  }
+
+  public String getErrorMsg() {
+    return errorMsg;
+  }
+
+  public void setErrorMsg(String errorMsg) {
+    this.errorMsg = errorMsg;
+  }
+
+  public String getJson() {
+    return json;
+  }
+
+  public void setJson(String json) {
+    this.json = json;
+  }
+
   @Override
   public String toString() {
     if (this.json != null) {

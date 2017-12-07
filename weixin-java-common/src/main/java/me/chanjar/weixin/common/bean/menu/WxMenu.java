@@ -45,6 +45,14 @@ public class WxMenu implements Serializable {
     return WxGsonBuilder.create().toJson(this);
   }
 
+  public WxMenuRule getMatchRule() {
+    return matchRule;
+  }
+
+  public void setMatchRule(WxMenuRule matchRule) {
+    this.matchRule = matchRule;
+  }
+
   @Override
   public String toString() {
     return ToStringUtils.toSimpleString(this);
